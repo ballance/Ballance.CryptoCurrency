@@ -26,6 +26,7 @@ namespace CryptoConsole
             }
 
             // alter for the heck of it
+            // another alter
         }
     }
 }
