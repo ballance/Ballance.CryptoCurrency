@@ -14,13 +14,6 @@ namespace CryptoConsole
             var bitThing = new Ballance.Crypto.Bitcoin();
             var currentPriceRetrieved = bitThing.GetCurrentPrice();
 
-            //Console.WriteLine("Current Price: {0}", currentPriceRetrieved);
-
-            //var livePrice = bitThing.GetLivePrice("https://bitcoinaverage.com/#USD", "global-last");
-            
-            //Console.WriteLine("Current Live Price: {0}", livePrice);
-            
-            ////Console.Write("Press any key to continue. 'q' to quit.");
             var entered = string.Empty;
 
             while (!entered.Equals("x", StringComparison.InvariantCultureIgnoreCase))
@@ -31,7 +24,6 @@ namespace CryptoConsole
 
                 entered = Console.ReadKey().Key.ToString();
             }
-            //Console.ReadKey();
         }
     }
 }
