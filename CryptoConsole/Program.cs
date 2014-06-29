@@ -24,6 +24,8 @@ namespace CryptoConsole
 
                 entered = Console.ReadKey().Key.ToString();
             }
+
+            // alter for the heck of it
         }
     }
 }
